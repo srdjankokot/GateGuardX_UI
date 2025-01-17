@@ -3,9 +3,9 @@ from PyQt6.QtWidgets import QMainWindow, QApplication, QLabel, QListWidgetItem, 
 from PyQt6.QtCore import Qt, QSize
 from PyQt6.QtGui import QIcon, QPixmap, QFont
 
-from settings import DeviceConfigurationPage
-from cloud_settings import CloudSettingsPage
-from gate_controllers import ControllerPage
+from ui.screens.settings import DeviceConfigurationPage
+from ui.screens.cloud_settings import CloudSettingsPage
+from ui.screens.gate_controllers import ControllerPage
 # Import the UI class from the 'main_ui' module
 from main_ui import Ui_MainWindow
 

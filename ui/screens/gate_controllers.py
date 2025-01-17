@@ -9,8 +9,9 @@ from PyQt6.QtWidgets import (
     QMessageBox,
 )
 from PyQt6.QtCore import Qt
-from database import Database  # Import the Database class
-from controller_dialog import AddEditControllerDialog  # Optional: move dialog to its own file
+# from io.database import Database  # Import the Database class
+from database.database import Database
+from ui.dialogs.controller_dialog import AddEditControllerDialog  # Optional: move dialog to its own file
 
 
 class ControllerPage(QWidget):
